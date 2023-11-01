@@ -36,7 +36,7 @@ class IdenfyReactNative: NSObject {
             
             idenfyVC.modalPresentationStyle = .fullScreen
             
-            UIApplication.shared.windows.first?.rootViewController?.present(idenfyVC, animated: true)
+            UIApplication.shared.windows.last?.rootViewController?.present(idenfyVC, animated: true)
             
             handleSdkCallbacks(idenfyController: idenfyController, resolver: resolve)
             

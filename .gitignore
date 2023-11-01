@@ -6,11 +6,13 @@
 .expo/
 
 # VSCode
+.history/
 .vscode/
 jsconfig.json
 
 # Xcode
 #
+
 build/
 *.pbxuser
 !default.pbxuser
